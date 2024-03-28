@@ -1,0 +1,100 @@
+###Rockbox Instalation 
+
+## Requirments: 
+A windows 10+ pc in which you have admin privileges 
+A WINDOWS Formatted iPod, it will NOT work with mac formatted iPod 
+
+# Software:
+1. older version of iTunes for windows. I used 10.7. # NEWER VERSION FROM MICROSOFT STORE WILL NOT WORK! You must download it online. 
+2. I used www.en.uptodown.com for iTunes, You can download it from the apple website, but as the time of writing this it did not work for me. 
+3. Here the the Rockbox download: https://www.rockbox.org Download the windows version. 
+
+
+# Optional 
+1. Remove any windows app, including downloaded apps and Windows apps. https://www.bcuninstaller.com
+2. If you need to format you SD card to FAT32, here is a simple tool http://ridgecrop.co.uk/index.htm?fat32format.htm 
+
+
+
+
+## Rockbox and iTunes Instalation 
+(optional if already installed older version on iTunes, if you have the newer version, remove it will the first app on the optional list of software, then install the proper version of iTunes. It will not let you have both versions on your computer)Install iTunes, click yes to all the promps
+if iTunes gives you a phone driver error, ignore it and complete install. 
+
+Install Rockbox, Follow the same steps from above for RockboxUlitity.exe, It will ask for windows privilages. Once these two softwares are installed, you can move onto the next step
+
+
+
+## Restoring iPod(optional)
+In most cases, you want to restore your ipod, if you just bought it 
+
+Plug in your iPod and open iTunes, this may take a second. 
+
+If you get pop ups about formatting the disk from windows, ignore all of them. 
+
+
+iTunes should pick up your iPod by now, click on it and press restore. once it restores your iPod, make sure it is up to date by checking for an update.
+
+Eject your iPod and unplug it from your computer, Make sure that iPod OS is running. You will have to select your desired language to confirm. Once you confirm that it is working, you can plug it back in.
+
+Errors:(Skip if you have no errors)
+- If iTunes does not pick up your iPod, you may have the wrong version of iTunes.
+- If you have an error that says that you already have iTunes installed
+- If you cannot get it to work, please make a pull request so that this guide can be updated for future enthusiasts. 
+
+
+
+      
+Open RockboxUtility.exe which you downloaded earlier. 
+
+It may promp you with a admin check box, make sure to click yes on that to proceed
+
+
+If configuration does not open automatically, You should see this page:
+
+![Rockbox Main Page](https://github.com/[clayjoelo]/[ULTAMATE-ROCKBOX-IPOD-HACK-GUIDE]/images/[main]/Capture.jpg?raw=true) 
+
+
+
+Click on the change icon with the little iPod icon on it if configuration does not open automatically. 
+
+the config page should look as so:
+![Rockbox Config Page](https://github.com/[clayjoelo]/[ULTAMATE-ROCKBOX-IPOD-HACK-GUIDE]/images/[main]/config.jpg?raw=true) 
+
+
+your drive should be blank, you will have to select it. Mine in G:\ but whatever your iPod is fine. 
+
+Now you can click autodetect at the bottom, if it gives you any trouble, just click on iPod Video(5th gen)(Stable)
+
+Now click OK at the bottom of the screen. 
+
+
+
+
+With your page looking like so: 
+![Rockbox Main Page](https://github.com/[clayjoelo]/[ULTAMATE-ROCKBOX-IPOD-HACK-GUIDE]/images/[main]/Capture.jpg?raw=true) 
+
+        
+# Don't check Bootloader just yet, that will be later. 
+Check These:
+- Rockbox
+- Fonts
+- Themes
+- Plugin Data
+
+
+You can add themes and Fonts later so I recommend to not worry about it now.
+Then click install at the bottom of your page. It may take a minute so sit back and take a sip of coffee. It should say complete with a green symbol once it is complete, press that. 
+
+# Installing Bootloader
+You can now move onto installing the Bootloader, this is the part that gives you the most trouble.
+
+Uncheck all the boxes you just checked if they are not already unselected, now click on bootloader and hit install like you did to install the last problems. 
+Errors:(Skip if you have no errors)
+- If you get a permission denied error you need to reformat you iPod, you can also try disk to put your ipod in disk mode, There are many resources online for this
+- If you get a mount disk error you need to make sure you iPod is plugged in, you may have to try a diffrent port on you Computer. Make sure you are using a genuine apple cable because that may cause problems too. 
+
+       
+Eject you iPod from your computer with the eject button near the top, once this is done, you can enjoy your modded iPod!
+
+If you encountered any errors that where not addressed or would like to see something else mentioned, please make a pull request so I can update the guide to help the next person. 
